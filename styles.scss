@@ -1,0 +1,12 @@
+// Sækja allt úr styles/
+@import './styles/books';
+@import './styles/config';
+@import './styles/events';
+@import './styles/global';
+@import './styles/grid';
+@import './styles/header';
+
+main {
+  padding-left: $padding-col;
+  padding-right: $padding-col;
+}
