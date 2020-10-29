@@ -7,6 +7,7 @@
     background-color: #F7F1EB;
     margin: 0 auto;
     //flex-direction: column;
+    overflow: visible;
   }
 
   &__grid {
@@ -14,13 +15,18 @@
     max-width: $max-grid;
     overflow: hidden;
     height: 100%;
+    overflow: visible;
   }
   &__row {
     display: flex;
-    flex-wrap: wrap;
     margin-left: $margin-row;
     margin-right: $margin-row;
+    flex-direction: row;
+    align-items: center;
     height: 100%;
+    overflow: visible;
+    margin-bottom: 10*$base-size;
+
   }
 }
 
@@ -31,11 +37,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-items: center;
   padding: 200px;
   position: relative;
+  margin-bottom: 100px;
+}
+
+.book__right {
+  margin-top: 300px;
+  overflow: visible;
 }
 
 .flex {
   margin-bottom: $base-size;
+  justify-content: center;
+  overflow: visible;
 }
 
