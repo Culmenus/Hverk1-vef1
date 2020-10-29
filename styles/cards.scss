@@ -7,6 +7,8 @@
 
 .card{
   height: 24.375rem;
+  margin: 1rem 0;
+  border: 1px solid #000000;
 
   .bottom {
     display: flex;
@@ -23,7 +25,6 @@
   }
 
   .textBox .rowItem {
-
     justify-content: space-between;
   }
 
@@ -35,7 +36,7 @@
     line-height: 21px;
     color: #9B9B9B;
   }
- /*Geri width 50% thvi annars brotnar readMore nidur.*/
+
   .textBox .header {
     display: flex;
     font-family: Playfair Display;
@@ -43,7 +44,6 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 29px;
-    /* identical to box height */
     color: #000000;
   }
 
@@ -71,7 +71,6 @@
     width: 100%;
     object-fit: cover;
   }
-
 }
 
 
