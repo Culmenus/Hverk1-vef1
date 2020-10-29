@@ -1,6 +1,6 @@
 /* https://css-tricks.com/building-css-grid-overlay/ */
 :root {
-  --offset: 10px;
+  --offset: 0px;
   --max_width: 1290px;
   --columns: 12;
   --gutter: 30px;
