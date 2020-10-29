@@ -7,13 +7,26 @@
   padding: 0;
 }
 
-kicker {
+.kicker {
   color: #E3CDB1;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
-
+button {
+  font-size: $base-size;
+  font-family: 'Poppins', sans-serif;;
+  height: 2.5*$base-size;
+  background-color: #FAFAFA;
+  color: #E3CDB1;
+  border: 1px;
+  border-color: #E3CDB1;
+  ;
+  &:hover {
+    background-color: #E3CDB1;
+    color: #FAFAFA;
+  }
+}
 
 
 
