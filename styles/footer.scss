@@ -1,4 +1,16 @@
-footer {
-  background-color: rgb(255, 255, 255);
-  width: 100%;
+.footer {
+
+  .imageContainer {
+    display: flex;
+    height: 21rem;
+    flex-wrap: nowrap;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .imageContainer > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 }
