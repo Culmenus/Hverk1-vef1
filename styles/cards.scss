@@ -1,7 +1,71 @@
 @import './config';
-.Row{
+.row{
   display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 0px 0px 0px 1px;
+height: 390px;
+}
+
+
+.pic {
+  height: 14.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pic>img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.Title{
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 80px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.pictxt_header{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+}
+
+.pictxt_kicker{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: flex-end;
+
+color: #9B9B9B;
+}
+.pictxt_readmore{
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #E3CDB1;
 }
