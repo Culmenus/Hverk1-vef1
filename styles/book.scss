@@ -1,4 +1,4 @@
-
+@import './config';
 .book{
   &-is-out {
     width: 100%;
@@ -13,11 +13,29 @@
     margin: $margin-grid;
     max-width: $max-grid;
     overflow: hidden;
+    height: 100%;
+  }
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: $margin-row;
+    margin-right: $margin-row;
+    height: 100%;
   }
 }
 
+
 .book__left {
-  float: left;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  position: relative;
 }
 
+.flex {
+  margin-bottom: $base-size;
+}
 
