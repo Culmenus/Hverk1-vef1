@@ -7,47 +7,10 @@
   padding: 0;
 }
 
-a {
-  color: $text-color;
-}
 
-body {
-  color: $text-color;
-  font-family:
-    'Open Sans',
-    helvetica,
-    arial,
-    sans-serif;
-  font-size: $font-size;
-}
 
-button {
-  background-color: $text-color;
-  border: $border-button;
-  border-radius: $border-radius;
-  color: $text-button;
-  padding: 0.5 * $base-size;
-  transition: $button-transition;
-  word-break: initial;
 
-  &:hover {
-    background-color: $text-button;
-    color: $text-color;
-  }
 
-  &:active {
-    background-color: $text-color;
-    border: $border-button;
-    color: $text-button;
-  }
-}
 
-h1,
-h2,
-h3,
-h4 {
-  font-family:
-    'Montaga',
-    Georgia,
-    serif;
-}
+
+
