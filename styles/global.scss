@@ -7,11 +7,7 @@
   padding: 0;
 }
 
-.kicker {
-  color: #E3CDB1;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-}
+
 
 button {
   font-size: $base-size;
@@ -39,11 +35,17 @@ button {
   }
 }
 
-h1 {
+.title {
   font-size: 4*$base-size;
   font-family: 'Playfair Display, serif';
   font-weight: 700;
   margin-bottom: $base-size;
+}
+
+.kicker {
+  color: #E3CDB1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 p {
