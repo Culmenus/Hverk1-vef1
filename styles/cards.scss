@@ -1,5 +1,10 @@
 @import './config';
 
+.rowItem{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card{
   height: 24.375rem;
 
@@ -17,10 +22,9 @@
     width: 100%;
   }
 
-  /* margin 25 px hot fix fyrir text box*/
-  .textBox > .row {
-    justify-content: space-between;
+  .textBox .rowItem {
 
+    justify-content: space-between;
   }
 
   .textBox .kicker {
@@ -31,8 +35,9 @@
     line-height: 21px;
     color: #9B9B9B;
   }
-
+ /*Geri width 50% thvi annars brotnar readMore nidur.*/
   .textBox .header {
+    display: flex;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -43,12 +48,12 @@
   }
 
   .textBox .readMore {
+    display: flex;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 24px;
-    text-align: end;
+    align-self: flex-end;
 
     color: #E3CDB1;
   }
