@@ -39,5 +39,15 @@ button {
   }
 }
 
+h1 {
+  font-size: 4*$base-size;
+  font-family: 'Playfair Display, serif';
+  font-weight: 700;
+  margin-bottom: $base-size;
+}
 
+p {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: $base-size;
+}
 
