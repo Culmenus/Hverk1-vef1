@@ -50,4 +50,9 @@
     }
   }
 }
+@media(max-width: 500px) {
+  .hero p {
+    display: none;
+  }
+}
 
