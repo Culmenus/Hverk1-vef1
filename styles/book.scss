@@ -29,7 +29,25 @@
 
   }
 }
-
+.book__button {
+  font-size: $base-size;
+  font-family: 'Poppins', sans-serif;;
+  height: 2.5*$base-size;
+  background-color: #FAFAFA;
+  color: #E3CDB1;
+  border: 1px;
+  border-color: #E3CDB1;
+  width: (5/12) * 100%;
+  &:hover {
+    background-color: #E3CDB1;
+    color: #FAFAFA;
+  }
+}
+.check-out-our {
+  font-family: 'Playfair Display, serif';
+  font-style: bold;
+  font-size: 3*$base-size;
+}
 
 .book__left {
   display: flex;

@@ -1,4 +1,18 @@
 @import './config';
-header {
-  //
+.header {
+  height: 80px;
+  left: 0; right: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    font-size: $base-size;
+
+  }
 }
