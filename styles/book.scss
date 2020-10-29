@@ -1,8 +1,23 @@
-.book-is-out {
-  width: 100%;
-  height: 670px;
-  display: flex;
-  background-color: #F7F1EB;
-  flex-direction: column;
+
+.book{
+  &-is-out {
+    width: 100%;
+    height: 670px;
+    //display: flex;
+    background-color: #F7F1EB;
+    margin: 0 auto;
+    //flex-direction: column;
+  }
+
+  &__grid {
+    margin: $margin-grid;
+    max-width: $max-grid;
+    overflow: hidden;
+  }
 }
+
+.book__left {
+  float: left;
+}
+
 
