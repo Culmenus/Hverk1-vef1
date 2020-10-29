@@ -9,8 +9,47 @@
 
 
 
+button {
+  font-size: $base-size;
+  font-family: 'Poppins', sans-serif;;
+  height: 2.5*$base-size;
+  background-color: #FAFAFA;
+  color: #E3CDB1;
+  border: 1px;
+  border-color: #E3CDB1;
+  ;
+  &:hover {
+    background-color: #E3CDB1;
+    color: #FAFAFA;
+  }
+}
+.check-out-our {
+  font-family: 'Playfair Display, serif';
+  font-style: bold;
+  font-size: 3*$base-size;
+}
 
+.latest {
+  img {
 
+  }
+}
 
+.title {
+  font-size: 4*$base-size;
+  font-family: 'Playfair Display, serif';
+  font-weight: 700;
+  margin-bottom: $base-size;
+}
 
+.kicker {
+  color: #E3CDB1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: $base-size;
+}
 
