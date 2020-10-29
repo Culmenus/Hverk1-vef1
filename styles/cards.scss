@@ -17,6 +17,12 @@
     width: 100%;
   }
 
+  /* margin 25 px hot fix fyrir text box*/
+  .textBox > .row {
+    justify-content: space-between;
+
+  }
+
   .textBox .kicker {
     font-family: Poppins;
     font-style: normal;
