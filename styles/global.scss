@@ -73,3 +73,67 @@ p {
   margin-bottom: $base-size;
 }
 
+//newsletter
+.newsletter{
+  color: white;
+  background-color: black;
+  height: 340px;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-end;
+  }
+  .newsletter_kicker{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #E3CDB1;
+  }
+  .newsletter_heading{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 53px;
+  color: #FFFFFF;
+  }
+  .mail{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  }
+  .email1{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  color: #525252;
+  text-decoration: underline;
+  }
+  .email2{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  color: #FFFFFF;
+  text-decoration: underline;
+  }
+  .blackbutton{
+  font-size: $base-size;
+  font-family: 'Poppins', sans-serif;;
+  height: 2.5*$base-size;
+  background-color: black;
+  color: #E3CDB1;
+  border: 1px;
+  border-color: #E3CDB1;
+  }
+
+  //footer
+  footer{
+   background-color: white;
+  }
