@@ -73,7 +73,24 @@
     object-fit: cover;
   }
 }
-
-
-
-
+.Allrecipes{
+  font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 80px;
+}
+.heading{
+  height: 115px;
+  .textBox{
+    align-content: stretch;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+  .thecheck{
+    align-self: flex-end;
+  }
+  .rowItem{
+    justify-content: space-between;
+  }
