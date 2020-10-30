@@ -26,7 +26,7 @@
   }
 }
 
-@for $i from 1 through 3 {
+@for $i from 1 through 5 {
   .offset-col-#{$i} {
     margin-left: ($i / 12) * $width;
   }

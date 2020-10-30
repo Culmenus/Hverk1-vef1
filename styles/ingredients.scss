@@ -1,0 +1,25 @@
+@import './config';
+
+.mainBody {
+  display: flex;
+}
+
+.ingredContainer {
+  display: flex;
+  flex-direction: column;
+  height: 16.500rem;
+  // tveir og halfur column
+  //width: (5/24) * $width;
+}
+
+.methodContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem{
+  display: flex;
+  width: 11.250rem;
+  justify-content: space-between;
+}
+
