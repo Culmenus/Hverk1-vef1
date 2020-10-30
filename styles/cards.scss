@@ -89,8 +89,28 @@ line-height: 80px;
   }
 }
   .thecheck{
-    align-self: flex-end;
+    align-self: center;
   }
   .rowItem{
     justify-content: space-between;
   }
+
+
+  .hero__button2{
+    display: flex;
+    justify-content: center;
+    font-size: $base-size;
+  font-family: 'Poppins', sans-serif;;
+  height: 2.5*$base-size;
+  background-color: #FAFAFA;
+  color: #E3CDB1;
+  border: 1px;
+  border-color: #E3CDB1;
+  width: 250px;
+  ;
+  &:hover {
+    background-color: #E3CDB1;
+    color: #FAFAFA;
+  }
+}
+
