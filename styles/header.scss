@@ -8,11 +8,17 @@
   position: fixed;
 
   .links {
+    a {
+      text-decoration: none;
+      color: #9B9B9B;
+    }
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 220px;
     font-size: $base-size;
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
   }
 }
