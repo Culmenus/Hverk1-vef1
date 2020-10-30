@@ -7,6 +7,15 @@
   justify-content: space-between;
   position: fixed;
 
+  &__grid{
+    margin: 0 auto;
+    width: $max-grid;
+    display: flex;
+    justify-content: space-between;
+    //max-width: $max-grid;
+    //overflow: hidden;
+  }
+
   .links {
     a {
       text-decoration: none;
@@ -21,4 +30,40 @@
     font-weight: 400;
     text-decoration: none;
   }
+}
+
+#burgericon {
+  display: none;
+
+}
+#homelink {
+  display: none;
+}
+
+@media(max-width: 500px) {
+  .header {
+    .links {
+      display: none;
+    }
+  }
+  #burgericon {
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .header a {
+    background: #FAFAFA;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .links:hover {
+    .header {
+      .links {
+        display: block;
+      }
+    }
+  }
+
 }
