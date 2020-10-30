@@ -15,11 +15,25 @@
 .methodContainer {
   display: flex;
   flex-direction: column;
+
+  .capitul {
+    margin: 1rem 0;
+  }
 }
 
 .listItem{
   display: flex;
+  margin-top: 1rem;
   width: 11.250rem;
   justify-content: space-between;
 }
+
+.listBox {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
 
