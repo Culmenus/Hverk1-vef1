@@ -34,36 +34,160 @@
 
 #burgericon {
   display: none;
-
 }
-#homelink {
+
+#homeicon {
   display: none;
 }
 
-@media(max-width: 500px) {
-  .header {
-    .links {
-      display: none;
-    }
+
+
+//nav {
+  //width: 100%;
+  //max-width: 800px;
+  //margin: 0 auto;
+//
+  //padding: 20px;
+//
+  //background: lightblue;
+//}
+
+.burgermain {
+  //width: 100%;
+
+  display: flex;
+  //justify-content: flex-start;
+  //flex-direction: column;
+  //align-items: flex-end;
+  //margin: 0 auto;
+}
+
+.mobile, .mobile-trigger {
+  display: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+
+  list-style: none;
+}
+
+@media only screen and (max-width: 500px) {
+  #homeicon {
+    display: block;
   }
+
+
   #burgericon {
     display: block;
   }
 
-  /* Style the hamburger menu */
-  .header a {
-    background: #FAFAFA;
+  .burgermain {
     display: block;
-    position: absolute;
-    right: 0;
+    position: fixed;
     top: 0;
-  }
-  .links:hover {
-    .header {
-      .links {
-        display: block;
-      }
-    }
+    right: 0;
+    width: 200px;
+    height: 60px;
+
+    //background: #999;
   }
 
+
+
+  a {
+    font-family: 'Playfair Display, serif';
+    color: #000;
+    font-size: 3rem;
+  }
+
+  .mobile-trigger {
+    display: block;
+    margin-top: 14px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+
+  .nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    margin-right: 3rem;
+    transform: translateY(-100%);
+    transition: transform 300ms ease-in;
+  }
+
+  .mobile:checked ~ .nav {
+    transform: translateY(54px);
+  }
+
+  .mobile:checked ~ .mobile-trigger:before {
+
+  }
+
+  .mobile:checked ~ #burgericon {
+    display: none;
+  }
+
+  .nav {
+    height: 350px;
+
+    background-color: #FAFAFA;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    list-style: none;
+  }
+
+
+  //.header {
+  //  .links {
+  //    display: none;
+  //  }
+  //}
+  #burgericon {
+    display: block;
+  }
+
+
+
+  //#burgericon:hover {
+  //  display: none;
+  //}
+//
+  //.burgeritem {
+  //  display: flex;
+  //  height: 100%
+  //}
+
+  /* Style the hamburger menu */
+
+
+
+  //.burgerlinks {
+  //  background-color: #FAFAFA;
+  //  right: 0;
+  //  margin-top: 0;
+  //  display: flex;
+  //  flex-direction: column;
+  //  justify-content: space-evenly;
+  //  align-items: center;
+  //  height: 300px;
+  //  width: 200px;
+  //  position: relative;
+  //}
+
+
 }
+//<div class="burgerlinks">
+//        <a href = "index.html" class = "burgeritem">Home</a>
+//        <a href="latest_recipes.html" class = "burgeritem">Recipes</a>
+//        <a href="" class = "burgeritem">Videos</a>
+//        <a href="" class = "burgeritem">About us</a>
+//      </div>
