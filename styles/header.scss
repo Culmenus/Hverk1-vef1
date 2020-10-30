@@ -36,7 +36,8 @@
   display: none;
 
 }
-#homelink {
+
+.burgerlinks {
   display: none;
 }
 
@@ -49,21 +50,28 @@
   #burgericon {
     display: block;
   }
+  #burgericon:hover {
+    display: none;
+  }
+
+  .burgeritem {
+    display: flex;
+    height: 100%
+  }
 
   /* Style the hamburger menu */
-  .header a {
-    background: #FAFAFA;
-    display: block;
-    position: absolute;
+
+  .burgerlinks {
+    background-color: #FAFAFA;
     right: 0;
-    top: 0;
-  }
-  .links:hover {
-    .header {
-      .links {
-        display: block;
-      }
-    }
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    position: relative;
   }
 
 }
