@@ -1,18 +1,41 @@
 @import './config';
-.footer {
 
-  .imageContainer {
-    display: flex;
-    height: 21rem;
-    flex-wrap: nowrap;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-  }
+footer {
+  display: flex;
+  height: 340px;
+  width: 100%;
+  color: $footer-bg;
+  align-items: center;
+  justify-content: center;
+}
 
-  .imageContainer > img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+.footercontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footertext {
+  color: $black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footericons {
+  display: flex;
+  img {
+    margin: 1rem;
   }
 }
+
+.footersubtext {
+  color: $footer-gray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+
