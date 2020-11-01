@@ -11,36 +11,6 @@ body {
   font-size: 16px;
 }
 
-.hero__button {
-  font-size: $base-size;
-  font-family: 'Poppins', sans-serif;;
-  height: 2.5*$base-size;
-  background-color: $gray-background;
-  color: $tan;
-  border: 1px;
-  border-color: $tan;
-  width: 250px;
-  ;
-  &:hover {
-    background-color: $tan;
-    color: $gray-background;
-  }
-}
-
-.book__button {
-  font-size: $base-size;
-  font-family: 'Poppins', sans-serif;;
-  height: 2.5*$base-size;
-  background-color: $gray-background;
-  color: $tan;
-  border: 1px;
-  border-color: $tan;
-  width: (5/12) * 100%;
-  &:hover {
-    background-color: $tan;
-    color: $gray-background;
-  }
-}
 .check-out-our {
   font-family: 'Playfair Display, serif';
   font-style: bold;
