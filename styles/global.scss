@@ -11,6 +11,30 @@ body {
   font-size: 16px;
 }
 
+button {
+  font-size: $base-size;
+  font-family: 'Poppins', sans-serif;;
+  height: 2.5*$base-size;
+  background-color: $gray-background;
+  color: $tan;
+  border: 1px;
+  border-color: $tan;
+  &:hover {
+    background-color: $tan;
+    color: $gray-background;
+  }
+}
+
+.botButton{
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  .botLine {
+    height: 1px;
+    border: 1px solid $bottomLine;
+  }
+}
+
 .check-out-our {
   font-family: 'Playfair Display, serif';
   font-style: bold;
