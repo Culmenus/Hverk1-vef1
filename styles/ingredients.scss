@@ -48,16 +48,16 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 300;
-  line-height: 32px;
+
   letter-spacing: 0px;
   text-align: left;
-
 
   .capitul {
     margin: 1rem 0;
   }
 
   .capitul > p {
+    line-height: 32px;
     margin: 1rem 0;
   }
 }
@@ -74,7 +74,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
 
+.vpHeaders{
+  font-family: 'Playfair Display, serif';
+  font-style: bold;
+  font-size: 3vmax;
+
+  h1 {
+
+  }
 }
 
 
