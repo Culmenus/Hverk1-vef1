@@ -32,14 +32,14 @@
   font-size: $base-size;
   font-family: 'Poppins', sans-serif;;
   height: 2.5*$base-size;
-  background-color: #FAFAFA;
-  color: #E3CDB1;
+  background-color: $gray-background;
+  color: $tan;
   border: 1px;
-  border-color: #E3CDB1;
+  border-color: $tan;
   width: (5/12) * 100%;
   &:hover {
-    background-color: #E3CDB1;
-    color: #FAFAFA;
+    background-color: $tan;
+    color: $gray-background;
   }
 }
 

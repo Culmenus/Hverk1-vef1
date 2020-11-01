@@ -94,7 +94,7 @@
     transform: translateY(-100%);
     transition: transform 300ms ease-in;
     height: 350px;
-    background-color: #FAFAFA;
+    background-color: $gray-background;
     flex-direction: column;
     padding: 1rem;
     list-style: none;
