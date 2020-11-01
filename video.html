@@ -10,16 +10,47 @@
 </head>
 
 <body>
-  <header class="header grid">
-    <img src="img/Logotype.svg" alt="Logo yum yum">
-    <div class="links">
-      <a href="latest_recipes.html">Latest_Recipes</a>
-      <a href="index.html">Index</a>
-      <a href="">Videos</a>
-      <a href="">About us</a>
+  <header class="header">
+    <div class = "header__grid">
+      <img src="img/Logotype.svg" alt="Logo yum yum">
+
+      <div class="burgermain">
+        <input type="checkbox" id="mobile-nav" class="mobile">
+        <label for="mobile-nav" class="mobile-trigger">
+          <img src="img/Burger-Menu-Icon.svg" id="burgericon" alt="burger menu icon">
+        </label>
+        <ul class="nav links">
+          <li class="nav__item" id = "homeicon">
+            <a href="./index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="./latest_recipes.html" class="nav__link">Recipes</a>
+          </li>
+          <li class="nav__item">
+            <a href="./video.html" class="nav__link">Videos</a>
+          <li class="nav__item">
+            <a href="" class="nav__link">About</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
   <main>
+    <div class = "videobreak"></div>
+    <section class = "videohero">
+      <div class = "videotext">
+
+      </div>
+      <div class = "video">
+        <div class = "videoimg">
+          <img src = "img/Video.png" id = "videoimg" alt = "video">
+        </div>
+        <div class = "playicon">
+          <img src = "img/playicon.png" alt = "play">
+        </div>
+      </div>
+      <div class = "darkness"></div>
+    </section>
     <section class="hero">
       <div class="hero__grid ">
         <div class="hero__content">
