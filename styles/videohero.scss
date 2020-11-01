@@ -3,6 +3,60 @@
   height: 650px;
   width: 100%;
 }
+.videobreak70 {
+  display: block;
+  height: 70px;
+  width: 100%;
+}
+
+.video__grid {
+  z-index: 300;
+  margin: $margin-grid;
+  max-width: $max-grid;
+  height: 650px;
+  display: flex;
+  align-items: space-around;
+}
+
+.videotext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 300;
+  max-width: 550px;
+  .video__title {
+      color: #ffffff;
+      font-size: 4*$base-size;
+      font-family: 'Playfair Display, serif';
+      font-weight: 700;
+      margin-bottom: $base-size;
+  }
+
+  .video__icons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    .icon {
+      display: flex;
+      flex-direction: row;
+      margin-right: 1rem;
+    }
+  }
+  .iconText {
+    margin-left: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: $white-text;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .video__subtext {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: $dark-gray;
+  }
+}
 
 .videohero {
   display: flex;
@@ -10,12 +64,14 @@
   width: 100%;
   height:  650px;
   top: 70px;
+
   .playicon {
     z-index: 200;
     position: absolute;
     height: 138px;
     margin: 0 auto;
   }
+
   .darkness {
     display: block;
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0,0,0,0));
@@ -23,6 +79,7 @@
     width: 100%;
     z-index: 40;
   }
+
   .video {
     display: flex;
     position: absolute;
@@ -42,6 +99,5 @@
     height: 100%;
   }
 }
-
 
 
