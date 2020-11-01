@@ -6,14 +6,12 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-
+  z-index: 400;
   &__grid{
     margin: 0 auto;
     width: $max-grid;
     display: flex;
     justify-content: space-between;
-    //max-width: $max-grid;
-    //overflow: hidden;
   }
 
   .links {
@@ -65,6 +63,7 @@
   }
 
   .burgermain {
+    z-index: 300;
     display: block;
     position: fixed;
     top: 0;
