@@ -21,7 +21,7 @@
     justify-content: center;
   }
   &__kicker {
-    color: #E3CDB1;
+    color: $tan;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
   }
@@ -41,28 +41,27 @@
     font-size: $base-size;
     font-family: 'Poppins', sans-serif;;
     height: 2.5*$base-size;
-    background-color: #FAFAFA;
-    color: #E3CDB1;
+    background-color: $gray-background;
+    color: $tan;
     border: 1px;
-    border-color: #E3CDB1;
+    border-color: $tan;
     ;
     &:hover {
-      background-color: #E3CDB1;
-      color: #FAFAFA;
+      background-color: $tan;
+      color: $gray-background;
     }
   }
   &__button {
     font-size: $base-size;
     font-family: 'Poppins', sans-serif;;
     height: 2.5*$base-size;
-    background-color: #FAFAFA;
-    color: #E3CDB1;
+    background-color: $gray-background;
+    color: $tan;
     border: 1px;
-    border-color: #E3CDB1;
-    ;
+    border-color: $tan;
     &:hover {
-      background-color: #E3CDB1;
-      color: #FAFAFA;
+      background-color: $tan;
+      color: $gray-background;
     }
   }
 }
