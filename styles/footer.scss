@@ -1,12 +1,12 @@
 @import './config';
 
 footer {
+  align-items: center;
+  color: $footer-bg;
   display: flex;
   height: 340px;
-  width: 100%;
-  color: $footer-bg;
-  align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .footercontainer {
@@ -36,6 +36,3 @@ footer {
   font-size: 14px;
   font-weight: 300;
 }
-
-
-
