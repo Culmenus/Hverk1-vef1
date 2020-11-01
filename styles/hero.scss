@@ -37,34 +37,8 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: $base-size;
   }
-  button {
-    font-size: $base-size;
-    font-family: 'Poppins', sans-serif;;
-    height: 2.5*$base-size;
-    background-color: $gray-background;
-    color: $tan;
-    border: 1px;
-    border-color: $tan;
-    ;
-    &:hover {
-      background-color: $tan;
-      color: $gray-background;
-    }
-  }
-  &__button {
-    font-size: $base-size;
-    font-family: 'Poppins', sans-serif;;
-    height: 2.5*$base-size;
-    background-color: $gray-background;
-    color: $tan;
-    border: 1px;
-    border-color: $tan;
-    &:hover {
-      background-color: $tan;
-      color: $gray-background;
-    }
-  }
-}
+
+
 @media(max-width: 500px) {
   .hero p {
     display: none;
@@ -78,4 +52,4 @@
     justify-content: center;
   }
 }
-
+}

@@ -31,6 +31,15 @@
     margin-left: ($i / 12) * $width;
   }
 }
+// fyrir botButton
+.offset-col-halfgutter {
+  margin-left: (1/24) * $width;
+}
+// fyrir botButton
+.col-4nhalf {
+  width: (9/24)*$width;
+}
+
 
 /*
 medium—upp að 800px
