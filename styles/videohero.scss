@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-.video__grid {
+.video-grid {
   align-items: space-around;
   display: flex;
   height: 650px;
@@ -27,7 +27,7 @@
   max-width: 550px;
   z-index: 300;
 
-  .video__title {
+  .video-title {
     color: #fff;
     font-family: 'Playfair Display', serif;
     font-size: 4*$base-size;
@@ -35,19 +35,19 @@
     margin-bottom: $base-size;
   }
 
-  .video__icons {
+  .video-icons {
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
-
-    .icon {
-      display: flex;
-      flex-direction: row;
-      margin-right: 1rem;
-    }
   }
 
-  .iconText {
+  .video-icons .icon {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+  }
+
+  .icon-text {
     color: $white-text;
     font-family: 'Poppins', sans-serif;
     margin-bottom: auto;
@@ -55,7 +55,7 @@
     margin-top: auto;
   }
 
-  .video__subtext {
+  .video-subtext {
     color: $dark-gray;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -100,7 +100,7 @@
     width: max-content;
   }
 
-  #videoimg {
+  .video-img {
     height: 100%;
   }
 }
