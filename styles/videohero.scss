@@ -1,8 +1,10 @@
+
 .videobreak {
   display: block;
   height: 650px;
   width: 100%;
 }
+
 .videobreak70 {
   display: block;
   height: 70px;
@@ -10,94 +12,95 @@
 }
 
 .video__grid {
-  z-index: 300;
+  align-items: space-around;
+  display: flex;
+  height: 650px;
   margin: $margin-grid;
   max-width: $max-grid;
-  height: 650px;
-  display: flex;
-  align-items: space-around;
+  z-index: 300;
 }
 
 .videotext {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 300;
   max-width: 550px;
+  z-index: 300;
+
   .video__title {
-      color: #ffffff;
-      font-size: 4*$base-size;
-      font-family: 'Playfair Display, serif';
-      font-weight: 700;
-      margin-bottom: $base-size;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 4*$base-size;
+    font-weight: 700;
+    margin-bottom: $base-size;
   }
 
   .video__icons {
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
+
     .icon {
       display: flex;
       flex-direction: row;
       margin-right: 1rem;
     }
   }
+
   .iconText {
-    margin-left: 0.5rem;
-    margin-top: auto;
-    margin-bottom: auto;
     color: $white-text;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: auto;
+    margin-left: 0.5rem;
+    margin-top: auto;
   }
 
   .video__subtext {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
     color: $dark-gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
   }
 }
 
 .videohero {
   display: flex;
+  height: 650px;
   position: absolute;
-  width: 100%;
-  height:  650px;
   top: 70px;
+  width: 100%;
 
   .playicon {
-    z-index: 200;
-    position: absolute;
     height: 138px;
     margin: 0 auto;
+    position: absolute;
+    z-index: 200;
   }
 
   .darkness {
+    background: linear-gradient(to right, #000, #000 40%, rgba(0, 0, 0, 0));
     display: block;
-    background: linear-gradient(to right, #000, #000 40%, rgba(0,0,0,0));
     height: 100%;
     width: 100%;
     z-index: 40;
   }
 
   .video {
-    display: flex;
-    position: absolute;
-    height: 100%;
-    width: max-content;
     align-items: center;
+    display: flex;
+    height: 100%;
     justify-content: center;
+    position: absolute;
     right: 0;
+    width: max-content;
   }
 
   .videoimg {
-    width: max-content;
     height: 100%;
+    width: max-content;
   }
 
   #videoimg {
     height: 100%;
   }
 }
-
-
