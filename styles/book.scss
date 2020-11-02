@@ -25,34 +25,25 @@
     margin-left: $margin-row;
     margin-right: $margin-row;
     overflow: visible;
+    z-index: -3;
   }
 }
 
 .book-button {
-  background-color: $gray-background;
-  border: 1px;
-  border-color: $tan;
-  color: $tan;
-  font-family: 'Poppins', sans-serif;
-  font-size: $base-size;
-  height: 2.5*$base-size;
-  width: (5/12) * 100%;
-
-  &:hover {
-    background-color: $tan;
-    color: $gray-background;
-  }
+  height: 3rem;
+  margin: 0;
+  padding: 0;
+  width: 60%;
 }
 
 .book-left {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100%;
   justify-content: center;
   margin-bottom: 100px;
   padding: 200px;
   position: relative;
+  z-index: 0;
 }
 
 .book-right {

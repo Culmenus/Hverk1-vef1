@@ -12,16 +12,16 @@ body {
 }
 
 button {
-  background-color: $gray-background;
+  background-color: $translucent;
   border: 1px solid $tan;
   color: $tan;
   font-family: 'Poppins', sans-serif;
   font-size: $base-size;
   height: 2.5*$base-size;
-
+  z-index: 1;
   &:hover {
     background-color: $tan;
-    color: $gray-background;
+    color: $white-text;
   }
 }
 
@@ -51,12 +51,6 @@ button {
 
   @media (max-width: $max-grid-sm) {
     font-size: 1.25rem;
-  }
-}
-
-.first-three-gray {
-  h1::nth-word(3) {
-    color: $footer-gray;
   }
 }
 

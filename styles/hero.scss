@@ -9,13 +9,13 @@
   background-repeat: no-repeat;
   min-height: 800px;
 
-  &__grid {
+  &-grid {
     display: flex;
     margin: 0 auto;
     max-width: 1290px;
   }
 
-  &__content {
+  &-content {
     display: flex;
     flex-direction: column;
     height: 800px;
@@ -24,7 +24,7 @@
     width: 50%;
   }
 
-  &__kicker {
+  &-kicker {
     color: $tan;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -38,6 +38,18 @@
     width: 100%;
   }
 
+  .hero-button-desk {
+    height: 3rem;
+    width: 50%;
+    z-index: 100;
+  }
+
+  .hero-button-sm {
+    height: 3rem;
+    width: 80%;
+    z-index: 100;
+  }
+
   p {
     font-family: 'Poppins', sans-serif;
     margin-bottom: $base-size;
@@ -48,14 +60,19 @@
       display: none;
     }
 
-    .hero__content {
+    .hero-content {
       margin: 0 auto;
       text-align: center;
       width: 100%;
+      align-items: center;
     }
 
-    .hero__buttons {
+    .hero-buttons {
       justify-content: center;
+    }
+
+    .hero {
+      background-position: right;
     }
   }
 }
