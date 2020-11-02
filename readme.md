@@ -6,7 +6,9 @@ Run: npm run dev\
 npm run lint er til staðar
 
 Script lýsing:
-Skriptan "npm run dev" keyrir concurrently, sass og browser sync.
+Skriptan "npm run dev" keyrir sass og browser sync. Þeim er gert kleift að keyra samtímis með concurrently. "npm run lint" hefur
+villuleit á scss skrám með stylelint-config-standard og stylelint-config-sass-guidelines að leiðarljósi.
+
 
 Settum lang=en í stað lang=is þar sem enginn íslenska kemur fram í beint í html.
 Þetta var gert í nafni W3C Validator.
@@ -29,5 +31,5 @@ breyttum því ekki þar sem það er hluti af gefinni hönnun.
 Þeir sem unnu verkefnið:
 
 Daníel Helgi Ágústsson, hí notendanafn: dha7, github notendanafn: dha7\
-Oddur Áskell Thoroddsen, hí notendanafn: oat3 github notendanafn: Culmenus\
+Oddur Áskell Thoroddsen, hí notendanafn: oat3, github notendanafn: Culmenus\
 Tristan Freyr Jónsson, hí notendanafn tfj2, github notendanafn: tfj2
