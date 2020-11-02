@@ -30,10 +30,12 @@
   }
 
   ul {
-    display: flex;
-    position: absolute;
-    left: 0;
-    right: 0;
+    @media (max-width: $max-grid-sm) {
+      display: flex;
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
   }
 }
 

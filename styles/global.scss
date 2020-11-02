@@ -32,13 +32,22 @@ button {
   .botLine {
     height: 1px;
     border: 1px solid $bottomLine;
+    @media (max-width: $max-grid-sm) {
+      border: none;
+    }
   }
 }
 
 .check-out-our {
   font-family: 'Playfair Display, serif';
   font-style: bold;
-  font-size: 3*$base-size;
+  font-size: 2.5rem;
+  @media (max-width: $max-grid-sm) {
+    font-size: 1.25rem;
+  }
+  h1::nth-word(3){
+    color: $footer-gray;
+  }
 }
 
 .title {

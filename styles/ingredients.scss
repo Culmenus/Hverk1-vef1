@@ -10,7 +10,7 @@
     font-family: 'Playfair Display, serif';
     font-style: bold;
     font-size: 2.5rem;
-    @media (max-width: $max-grid-md) {
+    @media (max-width: $max-grid-sm) {
       font-size: 1.25rem;
     }
   }
@@ -68,7 +68,7 @@
   text-align: left;
 
   @media (max-width: $max-grid-sm) {
-    font-size: $base-size;
+    font-size: 1rem;
   }
 
   .capitul {
@@ -87,7 +87,6 @@
   width: 11.250rem;
   justify-content: space-between;
 }
-
 
 .listBox {
   margin-top: 1rem;
