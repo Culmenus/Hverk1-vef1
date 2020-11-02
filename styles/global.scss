@@ -35,7 +35,7 @@ button {
     height: 1px;
 
     @media (max-width: $max-grid-sm) {
-      border: none;
+      border: hidden;
     }
   }
 }
