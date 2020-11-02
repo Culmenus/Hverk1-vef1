@@ -51,7 +51,7 @@ medium—upp að 800px
     }
   }
 
-  @for $i from 1 through 3 {
+  @for $i from 1 through 5 {
     .offset-col-md-#{$i} {
       margin-left: ($i / 12) * $width;
     }
@@ -68,7 +68,7 @@ small—upp að 500px
     }
   }
 
-  @for $i from 1 through 3 {
+  @for $i from 1 through 5 {
     .offset-col-sm-#{$i} {
       margin-left: ($i / 12) * $width;
     }

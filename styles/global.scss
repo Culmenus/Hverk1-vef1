@@ -17,8 +17,7 @@ button {
   height: 2.5*$base-size;
   background-color: $gray-background;
   color: $tan;
-  border: 1px;
-  border-color: $tan;
+  border: 1px solid $tan;
   &:hover {
     background-color: $tan;
     color: $gray-background;
@@ -32,13 +31,22 @@ button {
   .botLine {
     height: 1px;
     border: 1px solid $bottomLine;
+    @media (max-width: $max-grid-sm) {
+      border: none;
+    }
   }
 }
 
 .check-out-our {
   font-family: 'Playfair Display, serif';
   font-style: bold;
-  font-size: 3*$base-size;
+  font-size: 2.5rem;
+  @media (max-width: $max-grid-sm) {
+    font-size: 1.25rem;
+  }
+  h1::nth-word(3){
+    color: $footer-gray;
+  }
 }
 
 .title {
@@ -59,8 +67,32 @@ p {
   margin-bottom: $base-size;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .break80 {
   display: block;
   height: 80px;
   width: 100%;
+}
+
+.latestBgContainer {
+  height: 100%;
+  background: linear-gradient(0deg, $gray-background 88%, $white-text 88%);
+}
+
+.indexBgCont1 {
+  height: 100%;
+  background: linear-gradient(0deg, $gray-background 75%, $white-text 75%);
+}
+
+.indexBgCont2 {
+  height: 100%;
+  background: linear-gradient(0deg, $gray-background 35%, $white-text 35%);
+}
+
+.vRecBgCont {
+  height: 100%;
+  background: linear-gradient(0deg, $gray-background 50%, $white-text 50%);
 }

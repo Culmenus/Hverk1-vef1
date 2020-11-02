@@ -5,13 +5,25 @@
   font-size: 18px;
   margin-top: 3rem;
   margin-bottom: 3rem;
+
+  h2 {
+    font-family: 'Playfair Display, serif';
+    font-style: bold;
+    font-size: 2.5rem;
+    @media (max-width: $max-grid-sm) {
+      font-size: 1.25rem;
+    }
+  }
 }
 
 .ingredContainer {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 
-  h2 {
+
+  h3 {
     font-family: Poppins;
     font-style: normal;
     font-weight: 400;
@@ -51,7 +63,13 @@
   font-weight: 300;
 
   letter-spacing: 0px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   text-align: left;
+
+  @media (max-width: $max-grid-sm) {
+    font-size: 1rem;
+  }
 
   .capitul {
     margin: 1rem 0;
@@ -77,10 +95,6 @@
   justify-content: space-between;
 }
 
-.vpHeaders{
-  font-family: 'Playfair Display, serif';
-  font-style: bold;
-  font-size: 3vmax;
-}
+
 
 

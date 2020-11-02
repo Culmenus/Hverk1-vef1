@@ -28,6 +28,15 @@
     font-weight: 400;
     text-decoration: none;
   }
+
+  ul {
+    @media (max-width: $max-grid-sm) {
+      display: flex;
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
+  }
 }
 
 #burgericon {
@@ -102,12 +111,6 @@
     right: 0;
   }
 
-  ul {
-    display: flex;
-    position: absolute;
-    left: 0;
-    right: 0;
-  }
 
   .mobile:checked ~ .nav {
     transform: translateY(54px);
