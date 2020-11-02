@@ -38,20 +38,23 @@
   <main>
     <a href="recipe.html">Recipe</a>
     <section class="hero">
-      <div class="hero__grid ">
-        <div class="hero__content">
-          <div class="hero__kicker">Our latest recipe</div>
-          <h1 class="hero__title">Pumpkin pie</h1>
-          <div class="hero__text">
-            <p>
+      <div class="hero-grid ">
+        <div class="hero-content">
+          <div class="hero-kicker">Our latest recipe</div>
+          <h1 class="hero-title">Pumpkin pie</h1>
+          <div class="hero-text">
+            <p class = "desk">
               Pumpkin pie is a sweet dessert pie with a spiced,
               pumpkin-based custard filling. The pumpkin is a symbol of harvest time,
               and pumpkin pie is often eaten during the fall and early winter.
             </p>
           </div>
-          <div class="hero__buttons row col">
-            <button class="hero_button col col-5">See more</button>
-          </div>
+          <button class="col col-5 flex desk hero-button-desk">
+            See more
+          </button>
+          <button class="flex buttonsm hero-button-sm">
+            See more
+          </button>
         </div>
       </div>
     </section>
@@ -60,11 +63,11 @@
         <div class="kicker">
           Get ready to get busy
         </div>
-        <h1 class="check-out-our">Check out our latest recipes</h1>
+        <h1 class="check-out-our"><span>Check out our</span> latest recipes</h1>
         <div class="row">
           <div class="col col-4 col-md-8 offset-col-md-2 col-sm-10 offset-col-sm-1">
             <div class="card">
-              <div class="image"><img src="img/lax-sushi.png"></div>
+              <div class="image"><img src="img/lax-sushi.png" alt="salmon sushi roll"></div>
               <div class="bottom">
                 <div class="text-box">
                   <div class="row-item">
@@ -80,7 +83,7 @@
           </div>
           <div class="col col-4 col-md-8 offset-col-md-2 col-sm-10 offset-col-sm-1">
             <div class="card">
-              <div class="image"><img src="img/lax-sushi.png"></div>
+              <div class="image"><img src="img/lax-sushi.png" alt="salmon sushi roll"></div>
               <div class="bottom">
                 <div class="text-box">
                   <div class="row-item">
@@ -96,7 +99,7 @@
           </div>
           <div class="col col-4 col-md-8 offset-col-md-2 col-sm-10 offset-col-sm-1">
             <div class="card">
-              <div class="image"><img src="img/lax-sushi.png"></div>
+              <div class="image"><img src="img/lax-sushi.png" alt="salmon sushi roll"></div>
               <div class="bottom">
                 <div class="text-box">
                   <div class="row-item">
@@ -114,7 +117,7 @@
         <div class="row">
           <div class="col col-4 col-md-8 offset-col-md-2 col-sm-10 offset-col-sm-1">
             <div class="card">
-              <div class="image"><img src="img/lax-sushi.png"></div>
+              <div class="image"><img src="img/lax-sushi.png" alt="salmon sushi roll"></div>
               <div class="bottom">
                 <div class="text-box">
                   <div class="row-item">
@@ -130,7 +133,7 @@
           </div>
           <div class="col col-4 col-md-8 offset-col-md-2 col-sm-10 offset-col-sm-1">
             <div class="card">
-              <div class="image"><img src="img/lax-sushi.png"></div>
+              <div class="image"><img src="img/lax-sushi.png" alt="salmon sushi roll"></div>
               <div class="bottom">
                 <div class="text-box">
                   <div class="row-item">
@@ -146,7 +149,7 @@
           </div>
           <div class="col col-4 col-md-8 offset-col-md-2 col-sm-10 offset-col-sm-1">
             <div class="card">
-              <div class="image"><img src="img/lax-sushi.png"></div>
+              <div class="image"><img src="img/lax-sushi.png" alt="salmon sushi roll"></div>
               <div class="bottom">
                 <div class="text-box">
                   <div class="row-item">
@@ -188,10 +191,10 @@
             <p class = "sm">As you pour the first glass of your favorite
               Chianti or Chardonnay
             </p>
-            <button class="book-button flex buttondesk">
+            <button class="book-button buttondesk">
               See more
             </button>
-            <button class="book-button flex buttonsm">
+            <button class="book-button buttonsm flex offset-col-sm-1">
               Go to store
             </button>
           </div>
@@ -206,7 +209,7 @@
       <div class="kicker">
         Want some action?
       </div>
-      <h1 class="check-out-our">Check out our latest recipes</h1>
+      <h1 class="check-out-our"><span>Check out our</span> latest recipes</h1>
       <div class="row">
         <div class="col col-4 col-md-8 offset-col-md-2 col-sm-10 offset-col-sm-1">
           <div class="card">
@@ -268,19 +271,16 @@
   <div class="newsletter">
     <div class="newsletter grid">
       <div class="newsletter row">
-        <div class="col col-6 ">
+        <div class="subscribe-cont col col-6 col-md-10 offset-col-md-1">
           <div class="newsletter-kicker">Craving more?</div>
           <div class="newsletter-heading">Subscribe to our newsletter</div>
         </div>
-        <div class="col col-3">
+        <div class="email-cont col col-3  col-md-5 offset-col-md-1 col-sm-10">
           <div class="mail">Email</div>
-          <div class="email1">Enter your mail here</div>
-          <div class="mail">Email</div>
-          <div class="email2">email@example.com</div>
+          <div class="email">email@example.com</div>
+          <div class="email-underline"></div>
         </div>
-        <div class="col col-3">
-          <div class="blackbutton">Subscribe now</div>
-        </div>
+          <button class="news-button-cont col col-2 offset-col-halfgutter col-md-8 offset-col-md-2">Subscribe now</button>
       </div>
     </div>
   </div>
