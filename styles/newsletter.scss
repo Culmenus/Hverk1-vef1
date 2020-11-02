@@ -14,6 +14,9 @@
   color: #e3cdb1;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  @media (max-width: 1044px) {
+    font-size: 12px;
+  }
   font-style: normal;
   font-weight: 500;
 }
@@ -21,21 +24,31 @@
 .newsletter-heading {
   color: #fff;
   font-family: 'Playfair Display', serif;
-  font-size: 40px;
+  font-size: 2.5rem;
+  @media (max-width: 1044px) {
+    font-size: 1.875rem;
+  }
+
+  @media (max-width: $max-grid-sm) {
+    font-size: 1.25rem;
+  }
   font-style: normal;
   font-weight: bold;
-  line-height: 53px;
 }
 
 .subscribe-cont {
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
 }
 
 .mail {
   color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
+  @media (max-width: 1044px) {
+    font-size: 12px;
+  }
   font-style: normal;
   font-weight: 500;
   line-height: 21px;
@@ -45,6 +58,9 @@
   color: #fff;
   font-family: 'Playfair Display', serif;
   font-size: 22px;
+  @media (max-width: 1044px) {
+    font-size: 18px;
+  }
   font-style: normal;
   font-weight: bold;
   line-height: 29px;
@@ -52,7 +68,7 @@
 }
 
 .email-underline {
-  border: 1px solid $tan;
+  border: 0.5px solid $tan;
   height: 1px;
   margin-top: 12px;
 }
@@ -60,4 +76,9 @@
 .email-cont {
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
+}
+
+.news-button-cont {
+  margin-top: 1rem;
 }
