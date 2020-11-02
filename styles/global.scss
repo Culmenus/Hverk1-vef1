@@ -19,6 +19,7 @@ button {
   font-size: $base-size;
   height: 2.5*$base-size;
   z-index: 1;
+
   &:hover {
     background-color: $tan;
     color: $white-text;
@@ -35,7 +36,7 @@ button {
     height: 1px;
 
     @media (max-width: $max-grid-sm) {
-      border: none;
+      border: hidden;
     }
   }
 }
