@@ -4,7 +4,8 @@
 
 .hero {
   background-color: $gray-background;
-  background-image: url('../img/cake-bg.png');
+  //slóð miðast við útskrifað styles.css skjal
+  background-image: url('./img/cake-bg.png');
   background-position: bottom right;
   background-repeat: no-repeat;
   min-height: 800px;
