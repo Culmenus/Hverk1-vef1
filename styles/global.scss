@@ -41,10 +41,15 @@ button {
   }
 }
 
+
 .check-out-our {
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
   font-style: bold;
+
+  &::nth-child(-n+3) {
+    color: blue;
+  }
 
   @media (max-width: $max-grid-md) {
     font-size: 1.875rem;
