@@ -9,14 +9,14 @@
     width: 100%;
   }
 
-  &__grid {
+  &-grid {
     height: 100%;
     margin: $margin-grid;
     max-width: $max-grid;
     overflow: visible;
   }
 
-  &__row {
+  &-row {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -28,7 +28,7 @@
   }
 }
 
-.book__button {
+.book-button {
   background-color: $gray-background;
   border: 1px;
   border-color: $tan;
@@ -44,7 +44,7 @@
   }
 }
 
-.book__left {
+.book-left {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@
   position: relative;
 }
 
-.book__right {
+.book-right {
   margin-left: -15px;
   margin-top: 300px;
   overflow: visible;
@@ -79,7 +79,7 @@
 }
 
 @media (max-width: 500px) {
-  .book__left {
+  .book-left {
     margin-left: 0;
     position: absolute;
 
@@ -103,14 +103,14 @@
     width: 80%;
   }
 
-  .book__row {
+  .book-row {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .book__right {
+  .book-right {
     height: auto;
     margin-top: 30rem;
     object-fit: cover;
