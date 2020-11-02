@@ -3,7 +3,7 @@ README.md
 Til þess að keyra verkefnið:
 npm install\
 Run: npm run dev\
-npm run lint er til staðar\
+npm run lint er til staðar
 
 Script lýsing:
 Skriptan "npm run dev" keyrir concurrently, sass og browser sync.
