@@ -68,7 +68,7 @@ small—upp að 500px
     }
   }
 
-  @for $i from 1 through 5 {
+  @for $i from 0 through 5 {
     .offset-col-sm-#{$i} {
       margin-left: ($i / 12) * $width;
     }
