@@ -10,7 +10,7 @@
   right: 0;
   z-index: 400;
 
-  &__grid {
+  &-grid {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -25,12 +25,12 @@
     font-weight: 400;
     justify-content: space-between;
     text-decoration: none;
+  }
 
-    a {
-      color: #9b9b9b;
-      margin-left: 2rem;
-      text-decoration: none;
-    }
+  .links a {
+    color: #9b9b9b;
+    margin-left: 2rem;
+    text-decoration: none;
   }
 
   ul {
@@ -43,11 +43,11 @@
   }
 }
 
-#burgericon {
+.burgericon {
   display: none;
 }
 
-#homeicon {
+.homeicon {
   display: none;
 }
 
@@ -67,12 +67,11 @@
 }
 
 @media only screen and (max-width: 500px) {
-  #homeicon {
+  .homeicon {
     display: block;
   }
 
-
-  #burgericon {
+  .burgericon {
     display: block;
   }
 
@@ -118,14 +117,7 @@
     transform: translateY(54px);
   }
 
-  .mobile:checked ~ .mobile-trigger:before {
-  }
-
-  .mobile:checked ~ #burgericon {
+  .mobile:checked ~ .burgericon {
     display: none;
-  }
-
-  #burgericon {
-    display: block;
   }
 }
