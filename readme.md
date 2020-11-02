@@ -1,9 +1,9 @@
 README.md
 
 Til þess að keyra verkefnið:
-npm install
-Run: npm run dev
-npm run lint er til staðar
+npm install\
+Run: npm run dev\
+npm run lint er til staðar\
 
 Script lýsing:
 Skriptan "npm run dev" keyrir concurrently, sass og browser sync.
@@ -28,6 +28,6 @@ breyttum því ekki þar sem það er hluti af gefinni hönnun.
 
 Þeir sem unnu verkefnið:
 
-Daníel Helgi Ágústsson, hí notendanafn: dha7, github notendanafn: dha7
-Oddur Áskell Thoroddsen, hí notendanafn: oat3 github notendanafn: Culmenus
+Daníel Helgi Ágústsson, hí notendanafn: dha7, github notendanafn: dha7\
+Oddur Áskell Thoroddsen, hí notendanafn: oat3 github notendanafn: Culmenus\
 Tristan Freyr Jónsson, hí notendanafn tfj2, github notendanafn: tfj2
