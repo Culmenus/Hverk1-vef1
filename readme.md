@@ -1,6 +1,6 @@
 README.md
 
-Til þess að keyra verkefnið:
+Til þess að keyra verkefnið:\
 npm install\
 Run: npm run dev\
 npm run lint er til staðar
