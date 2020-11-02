@@ -86,19 +86,33 @@ ul {
 .latest-bg-container {
   background: linear-gradient(0deg, $gray-background 88%, $white-text 88%);
   height: 100%;
+  @media (max-width: $max-grid-md) {
+    background: linear-gradient(0deg, $gray-background 95%, $white-text 95%);
+  }
 }
 
 .index-bg-cont1 {
   background: linear-gradient(0deg, $gray-background 75%, $white-text 75%);
   height: 100%;
+  margin-top: 1rem;
+
+  @media (max-width: $max-grid-md) {
+    background: linear-gradient(0deg, $gray-background 90%, $white-text 90%);
+  }
 }
 
 .index-bg-cont2 {
   background: linear-gradient(0deg, $gray-background 35%, $white-text 35%);
   height: 100%;
+  @media (max-width: $max-grid-md) {
+    background: linear-gradient(0deg, $gray-background 60%, $white-text 60%);
+  }
 }
 
 .v-rec-bg-cont {
   background: linear-gradient(0deg, $gray-background 50%, $white-text 50%);
   height: 100%;
+  @media (max-width: $max-grid-md) {
+    background: linear-gradient(0deg, $gray-background 82%, $white-text 82%);
+  }
 }
