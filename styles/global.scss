@@ -45,12 +45,12 @@ button {
   font-size: 2.5rem;
   font-style: bold;
 
-  @media (max-width: $max-grid-sm) {
-    font-size: 1.25rem;
+  @media (max-width: $max-grid-md) {
+    font-size: 1.875rem;
   }
 
-  h1::nth-child(3) {
-    color: $footer-gray;
+  @media (max-width: $max-grid-sm) {
+    font-size: 1.25rem;
   }
 }
 
