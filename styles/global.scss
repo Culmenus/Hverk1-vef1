@@ -17,8 +17,7 @@ button {
   height: 2.5*$base-size;
   background-color: $gray-background;
   color: $tan;
-  border: 1px;
-  border-color: $tan;
+  border: 1px solid $tan;
   &:hover {
     background-color: $tan;
     color: $gray-background;
@@ -76,4 +75,24 @@ ul {
   display: block;
   height: 80px;
   width: 100%;
+}
+
+.latestBgContainer {
+  height: 100%;
+  background: linear-gradient(0deg, $gray-background 88%, $white-text 88%);
+}
+
+.indexBgCont1 {
+  height: 100%;
+  background: linear-gradient(0deg, $gray-background 75%, $white-text 75%);
+}
+
+.indexBgCont2 {
+  height: 100%;
+  background: linear-gradient(0deg, $gray-background 35%, $white-text 35%);
+}
+
+.vRecBgCont {
+  height: 100%;
+  background: linear-gradient(0deg, $gray-background 50%, $white-text 50%);
 }
