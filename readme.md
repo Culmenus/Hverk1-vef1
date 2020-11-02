@@ -22,6 +22,9 @@ er keyrð. SCSS skjölum er skipt þannig hvert og eitt hefur sérhæft hlutverk
 
 Til að gera recipe.html aðgengilegt þá settum við vísun á þá síðu í gegnum "About us" í header.
 
+Keyrðum html í gegnum axe og villurnar sem voru þar eru vegna þess að litaismunur er lítill,
+breyttum því ekki þar sem það er hluti af hönnun síðunnar.
+
 Þeir sem unnu verkefnið:
 
 Daníel Helgi Ágústsson, hí notendanafn: dha7, github notendanafn: dha7
