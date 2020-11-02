@@ -1,26 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import './config';
+
 .hero {
-  min-height: 800px;
-  background-image: url(../img/cake-bg.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
   background-color: $gray-background;
+  background-image: url('../img/cake-bg.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  min-height: 800px;
+
   &__grid {
-    max-width: 1290px;
-    margin: 0 auto;
     display: flex;
+    margin: 0 auto;
+    max-width: 1290px;
   }
 
   &__content {
-    width: 50%;
-    max-width: 550px;
-    height: 800px;
     display: flex;
     flex-direction: column;
+    height: 800px;
     justify-content: center;
+    max-width: 550px;
+    width: 50%;
   }
+
   &__kicker {
     color: $tan;
     font-family: 'Poppins', sans-serif;
@@ -28,29 +31,31 @@
   }
 
   h1 {
+    font-family: 'Playfair Display', serif;
     font-size: 4*$base-size;
-    font-family: 'Playfair Display, serif';
     font-weight: 700;
     margin-bottom: $base-size;
     width: 100%;
   }
+
   p {
     font-family: 'Poppins', sans-serif;
     margin-bottom: $base-size;
   }
 
+  @media (max-width: 500px) {
+    .hero p {
+      display: none;
+    }
 
-@media(max-width: 500px) {
-  .hero p {
-    display: none;
+    .hero__content {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+    }
+
+    .hero__buttons {
+      justify-content: center;
+    }
   }
-  .hero__content {
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-  }
-  .hero__buttons {
-    justify-content: center;
-  }
-}
 }
