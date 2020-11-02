@@ -12,16 +12,16 @@ body {
 }
 
 button {
-  background-color: $gray-background;
+  background-color: $translucent;
   border: 1px solid $tan;
   color: $tan;
   font-family: 'Poppins', sans-serif;
   font-size: $base-size;
   height: 2.5*$base-size;
-
+  z-index: 1;
   &:hover {
     background-color: $tan;
-    color: $gray-background;
+    color: $white-text;
   }
 }
 
@@ -49,7 +49,7 @@ button {
     font-size: 1.25rem;
   }
 
-  h1::nth-word(3) {
+  h1::nth-child(3) {
     color: $footer-gray;
   }
 }
